@@ -1,0 +1,94 @@
+.SideBar-container{
+    width:250px;
+    height: 100vh;
+    position: relative;
+    margin-left: 30px;
+    
+}
+
+.sideBar-title{
+    margin: 1rem;
+}
+
+.sideBar-footer{
+    position: absolute;
+    bottom: 0;
+}
+
+.sideBar-menu-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sideBar-menu-list-items{
+    display: flex;
+    gap: 10px;
+    
+    padding: 0 0 15px;
+}
+
+.sideBar-menu-container-menu{
+    font-size: 0.95em;
+    margin-bottom: 15px;
+}
+
+.sideBar-footer{
+    height:180px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.sideBar-footer-img{
+    width: 45px;
+    height: 45px;
+    background-color: cadetblue;
+    position: absolute;
+    align-self: center;
+    z-index: 1;
+    border-radius: 10%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.sideBar-footer-container{
+    margin:10px;
+    background-color: rgba(28, 30, 30, 0.9);
+    position: relative;
+    height: 80%;
+    z-index: 0;
+    justify-self: center;
+    top: 7%;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.sideBar-footer-button{
+    padding: 10px;
+    background-color: #3b3b3b;
+    width: 70%;
+    border-radius: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sideBar-footer-content{
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.sideBar-footer-container div span{
+    font-size:12px;
+}
+
